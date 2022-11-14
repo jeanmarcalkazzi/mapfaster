@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "mapfaster"
+version = "0.1.0"
+description = "MAPFASTER - A Faster and Simpler take on Multi-Agent Path Finding Algorithm Selection"
+authors = ["Jean-Marc Alkazzi"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.20.1"
+torch = "1.9.0"
+fastai = "2.5.3"
+jupyter = "1.0.0"
+pandas = "1.3.2"
+Pillow = "8.0.1"
+torchvision = "0.10.0"
+seaborn = "0.11.2"
+setuptools = "52.0.0"
+six = "1.15.0"
+tqdm = "4.62.1"
+typing-extensions = "3.10.0.2"
+albumentations = "1.0.0"
+matplotlib = "3.4.2"
+wandb = "0.12.10"
+protobuf = "3.20.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.5"
+isort = "5.9.3"
+mypy = "0.812"
+black = "22.10.0"
+coverage = "^6.4.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
